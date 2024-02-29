@@ -76,7 +76,6 @@ const sr = ScrollReveal({
   distance: "40px",
   opacity: 1,
   scale: 1.1,
-  delay: 300,
   duration: 2500,
   //   reset: true,
 });
@@ -89,10 +88,10 @@ sr.reveal(`.home__footer`, { scale: 1, origin: "bottom" });
 
 sr.reveal(`.new__card:nth-child(1) img`, { rotate: { z: -30, distance: 0 } });
 sr.reveal(`.new__card:nth-child(2) img`, {
-  rotate: { z: 15, distance: 0, delay: 600 },
+  rotate: { z: 15, distance: 0 },
 });
 sr.reveal(`.new__card:nth-child(3) img`, {
-  rotate: { z: -30, distance: 0, delay: 900 },
+  rotate: { z: -30, distance: 0 },
 });
 
 sr.reveal(`.favorite__card img`, {
